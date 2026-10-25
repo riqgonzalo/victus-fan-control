@@ -1,0 +1,3 @@
+# Victus Fan Control: permite al grupo @GROUP@ cambiar el modo de ventiladores (hp-wmi)
+# pwm1_enable: 0 = máximo (Turbo), 2 = automático
+ACTION=="add|change", SUBSYSTEM=="hwmon", ATTR{name}=="hp", RUN+="/usr/bin/chgrp @GROUP@ /sys%p/pwm1_enable", RUN+="/usr/bin/chmod 0664 /sys%p/pwm1_enable"

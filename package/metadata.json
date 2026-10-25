@@ -1,0 +1,23 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "RiqGoX"
+            }
+        ],
+        "Category": "System Information",
+        "Description": "Control de ventiladores y temperaturas para HP Victus (driver hp-wmi)",
+        "Description[es]": "Control de ventiladores y temperaturas para HP Victus (driver hp-wmi)",
+        "Icon": "temperature-normal",
+        "Id": "com.victus.fancontrol",
+        "License": "GPL-3.0-or-later",
+        "Name": "Victus Fan Control",
+        "Name[es]": "Control de Ventiladores Victus",
+        "Version": "1.0",
+        "Website": "https://github.com/riqgonzalo/victus-fan-control"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-NotificationArea": "true",
+    "X-Plasma-NotificationAreaCategory": "Hardware"
+}

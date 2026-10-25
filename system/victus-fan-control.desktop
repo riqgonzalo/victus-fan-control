@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Control de Ventiladores Victus
+GenericName=Ventiladores y temperaturas
+Comment=Modo Auto/Turbo de ventiladores, temperaturas y perfil de energía (hp-wmi)
+Exec=plasmawindowed com.victus.fancontrol
+Icon=temperature-normal
+Categories=System;Monitor;Qt;KDE;
+Keywords=ventilador;fan;temperatura;turbo;victus;omen;hp;
+StartupNotify=false
+Terminal=false
